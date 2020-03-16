@@ -115,7 +115,6 @@ public class ControladorBillete implements ActionListener {
 				 * se rellena la lista despegable (ComboBox) con las lineas encontradas 
 				 */
 				this.ventanaBillete.getcomboBoxLinea().addItem(lineas.get(i));
-
 			}
 
 		} catch (SQLException e) {
